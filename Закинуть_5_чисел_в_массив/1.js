@@ -16,7 +16,7 @@ let negativeNum = 0;
 for(i=0; i < mass.length; i++)
 {
     sum += mass[i]
-    if (mass[i]%2 != 1){chet +=1;}
+    if (mass[i]%2 == 0){chet +=1;}
     //else {notChet += 1 }
     if (mass[i]>0){positiveNum += 1}
     //else{negativeNum += 1}

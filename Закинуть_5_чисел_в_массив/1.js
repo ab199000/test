@@ -4,7 +4,7 @@ let mass = [];
 while (mass.length < 5)
 {
     let num = Math.round(Math.random()*Math.abs(start-end) + Math.min(start,end));
-    mas = mass.push(num);
+    if (num%3 == 0) {mas = mass.push(num);}
 }
 console.log(mass)
 
